@@ -1,0 +1,24 @@
+{
+    "name": "jugger-php/jugger-bitrix",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "jugger\\bitrix\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.9",
+        "jugger-php/jugger-base": "^1",
+        "jugger-php/jugger-db": "^1",
+        "jugger-php/jugger-model": "^1",
+        "jugger-php/jugger-ui": "^1",
+        "jugger-php/jugger-ds": "^1",
+        "jugger-php/jugger-html": "^1",
+        "jugger-php/jugger-fontawesome": "^1",
+        "jugger-php/jugger-bootstrap": "^1",
+        "jugger-php/jugger-form": "^1",
+        "jugger-php/jugger-ar": "^1",
+        "jugger-php/jugger-data": "^1",
+        "jugger-php/jugger-di": "^1"
+    }
+}
