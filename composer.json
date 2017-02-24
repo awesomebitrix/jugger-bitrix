@@ -1,6 +1,5 @@
 {
     "name": "jugger-php/jugger-bitrix",
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "jugger\\bitrix\\": "src/"
