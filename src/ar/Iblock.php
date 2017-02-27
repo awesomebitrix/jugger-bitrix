@@ -29,11 +29,7 @@ class Iblock extends ActiveRecord
             ]),
             new DatetimeField([
                 'name' => 'timestamp_x',
-                'value' => 'CURRENT_TIMESTAMP',
                 'format' => 'timestamp',
-                'validators' => [
-                    new RequireValidator(),
-                ],
             ]),
             new TextField([
                 'name' => 'iblock_type_id',

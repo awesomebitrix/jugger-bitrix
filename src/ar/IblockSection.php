@@ -30,11 +30,7 @@ class IblockSection extends ActiveRecord
             ]),
             new DatetimeField([
                 'name' => 'timestamp_x',
-                'value' => 'CURRENT_TIMESTAMP',
                 'format' => 'timestamp',
-                'validators' => [
-                    new RequireValidator(),
-                ],
             ]),
             new IntField([
                 'name' => 'modified_by',
